@@ -1,0 +1,1006 @@
+2020-06-04 11:42:20,734 ERROR 19000 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19000
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:27:41,824 ERROR 19144 [-/127.0.0.1/-/12ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19144
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:29:13,806 ERROR 3588 [-/127.0.0.1/-/11ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:31:19,048 ERROR 3588 [-/127.0.0.1/-/2ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:31:40,106 ERROR 3588 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:32:50,526 ERROR 3588 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:33:32,436 ERROR 3588 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:34:46,630 ERROR 3588 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 12:35:16,544 ERROR 3588 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 3588
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 13:05:34,245 ERROR 13388 [-/127.0.0.1/-/14ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13388
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 13:45:38,104 ERROR 15184 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15184
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:14:39,725 ERROR 10484 [-/127.0.0.1/-/13ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:15:40,547 ERROR 10484 [-/127.0.0.1/-/2ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:17:56,140 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:00,280 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:04,127 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:06,072 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:07,531 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:33,328 ERROR 10484 [-/127.0.0.1/-/2ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:43,362 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:18:53,369 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:04,930 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:19,520 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:33,670 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:38,079 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:44,187 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:19:56,186 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:20:16,921 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:21:13,759 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:21:16,750 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:26:56,355 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:27:07,823 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:27:10,505 ERROR 10484 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 15:27:12,356 ERROR 10484 [-/127.0.0.1/-/0ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10484
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 17:17:22,558 ERROR 13468 [-/127.0.0.1/-/10ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13468
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 17:17:39,013 ERROR 13468 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13468
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 17:18:52,788 ERROR 13468 [-/127.0.0.1/-/1ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13468
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 17:19:17,154 ERROR 13468 [-/127.0.0.1/-/2ms GET /todoItems] nodejs.ReferenceError: delay is not defined
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:9)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 13468
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 23:37:49,228 ERROR 15184 nodejs.ClusterClientNoResponseError: client no response in 10815973ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15184
+hostname: L-PF0VSSR6-1127
+
+2020-06-04 23:40:29,667 ERROR 15184 nodejs.ClusterClientNoResponseError: client no response in 159895ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15184
+hostname: L-PF0VSSR6-1127
+

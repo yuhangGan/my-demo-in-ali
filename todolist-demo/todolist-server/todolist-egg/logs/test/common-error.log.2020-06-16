@@ -1,0 +1,295 @@
+2020-06-05 12:11:05,227 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:14,184 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:22,740 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:32,413 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:43,650 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:46,165 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-05 12:11:59,688 ERROR 13056 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13056
+hostname: L-PF0VSSR6-1127
+
+2020-06-10 11:29:37,227 ERROR 9320 [-/127.0.0.1/-/1025ms GET /todoItems] nodejs.SequelizeDatabaseError: Unknown column 'lisext_item' in 'field list'
+    at Query.formatError (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:29
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:12
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:641:10
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.select (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:1759:34
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at Function.findAll (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:1757:8)
+    at ListService.fetchList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:7:48)
+    at ListController.index (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:16:49)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\meta.js:12:5)
+    at async cors (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@koa\cors\index.js:56:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'lisext_item' in 'field list'","sql":"SELECT `id`, `lisext_item` AS `lisextItem`, `is_done` AS `isDone`, `content` FROM `lists` AS `lists`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'lisext_item' in 'field list'","sql":"SELECT `id`, `lisext_item` AS `lisextItem`, `is_done` AS `isDone`, `content` FROM `lists` AS `lists`;"}
+sql: "SELECT `id`, `lisext_item` AS `lisextItem`, `is_done` AS `isDone`, `content` FROM `lists` AS `lists`;"
+parameters: undefined
+pid: 9320
+hostname: L-PF0VSSR6-1127
+
+2020-06-14 15:19:23,582 ERROR 21624 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+From previous event:
+    at ConnectionManager.connect (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:120:13)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:8)
+    at ConnectionManager.getConnection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:254:46)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:640:36
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:53
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:580:23)
+    at Sequelize.authenticate (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:892:17)
+    at authenticate (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-sequelize\lib\loader.js:134:22)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-sequelize\lib\loader.js:40:49
+    at Array.map (<anonymous>)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-sequelize\lib\loader.js:40:33
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:42)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 21624
+hostname: L-PF0VSSR6-1127
+
+2020-06-14 18:11:59,978 ERROR 21128 [-/127.0.0.1/-/1109ms POST /todoItems] nodejs.SequelizeDatabaseError: Field 'content' doesn't have a default value
+    at Query.formatError (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:29
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:12
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:641:10
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:885:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3989:52
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at model.save (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3966:8)
+    at Function.create (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2230:8)
+    at ListService.createItem (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:13:47)
+    at ListController.create (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:21:49)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\meta.js:12:5)
+    at async cors (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@koa\cors\index.js:98:16)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`) VALUES (DEFAULT);"}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`) VALUES (DEFAULT);"}
+sql: "INSERT INTO `lists` (`id`) VALUES (DEFAULT);"
+parameters: undefined
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21128
+hostname: L-PF0VSSR6-1127
+
+2020-06-14 18:42:00,340 ERROR 21128 [-/127.0.0.1/-/1019ms POST /todoItems] nodejs.SequelizeDatabaseError: Field 'content' doesn't have a default value
+    at Query.formatError (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Execute.handler [as onResult] (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Execute.execute (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:29
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:12
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:641:10
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:885:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3989:52
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at model.save (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3966:8)
+    at Function.create (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2230:8)
+    at ListService.createItem (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:13:47)
+    at ListController.create (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:21:49)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg\app\middleware\meta.js:12:5)
+    at async cors (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@koa\cors\index.js:98:16)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`,`list_item`) VALUES (DEFAULT,?);","parameters":["rax"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`,`list_item`) VALUES (DEFAULT,?);","parameters":["rax"]}
+sql: "INSERT INTO `lists` (`id`,`list_item`) VALUES (DEFAULT,?);"
+parameters: ["rax"]
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21128
+hostname: L-PF0VSSR6-1127
+
+2020-06-15 14:06:17,568 ERROR 3832 nodejs.ClusterClientNoResponseError: client no response in 205063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3832
+hostname: L-PF0VSSR6-1127
+
+2020-06-15 18:54:22,297 ERROR 2672 nodejs.ClusterClientNoResponseError: client no response in 2915217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 2672
+hostname: L-PF0VSSR6-1127
+
+2020-06-16 19:05:54,457 ERROR 3320 nodejs.ClusterClientNoResponseError: client no response in 99980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3320
+hostname: L-PF0VSSR6-1127
+
+2020-06-16 22:13:04,050 ERROR 3320 nodejs.ClusterClientNoResponseError: client no response in 10807171ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3320
+hostname: L-PF0VSSR6-1127
+
+2020-06-16 23:42:29,557 ERROR 3320 nodejs.ClusterClientNoResponseError: client no response in 5361839ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3320
+hostname: L-PF0VSSR6-1127
+

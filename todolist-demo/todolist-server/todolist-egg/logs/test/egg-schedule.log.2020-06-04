@@ -1,0 +1,123 @@
+2020-06-04 04:29:59,161 INFO 19000 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 86400861ms at 2020-06-05 04:30:00.022
+2020-06-04 04:29:59,140 INFO 20580 [Job#159121619913840646473303001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-06-04 04:29:59,160 INFO 20580 [Job#159121619913840646473303001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 20ms
+2020-06-04 09:41:17,876 INFO 17316 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 09:41:17,876 INFO 17316 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 09:41:17,876 INFO 17316 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 09:41:27,183 INFO 17628 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 09:41:27,183 INFO 17628 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 09:41:27,183 INFO 17628 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 10:41:25,291 INFO 14236 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 10:41:25,291 INFO 14236 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 10:41:25,291 INFO 14236 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 10:41:30,429 INFO 7476 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 10:41:30,429 INFO 7476 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 10:41:30,429 INFO 7476 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 11:41:14,529 INFO 16284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 11:41:14,529 INFO 16284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 11:41:14,529 INFO 16284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 11:42:14,066 INFO 9928 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 11:42:14,066 INFO 9928 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 11:42:14,066 INFO 9928 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 11:42:19,004 INFO 22072 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 11:42:19,004 INFO 22072 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 11:42:19,004 INFO 22072 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 11:47:07,241 INFO 14672 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 11:47:07,241 INFO 14672 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 11:47:07,241 INFO 14672 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 11:47:08,770 INFO 15184 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60171235ms at 2020-06-05 04:30:00.005
+2020-06-04 11:47:08,771 INFO 15184 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43971229ms at 2020-06-05 00:00:00.000
+2020-06-04 11:47:08,772 INFO 15184 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43972228ms at 2020-06-05 00:00:01.000
+2020-06-04 12:27:13,472 INFO 19144 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:27:13,472 INFO 19144 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:27:13,472 INFO 19144 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 12:28:01,555 INFO 18948 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:28:01,555 INFO 18948 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:28:01,555 INFO 18948 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 12:29:04,692 INFO 3588 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:29:04,692 INFO 3588 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:29:04,692 INFO 3588 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 12:39:42,789 INFO 14572 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:39:42,789 INFO 14572 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:39:42,789 INFO 14572 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 12:44:32,996 INFO 21092 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:44:32,996 INFO 21092 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:44:32,996 INFO 21092 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 12:44:38,337 INFO 11104 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 12:44:38,337 INFO 11104 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 12:44:38,337 INFO 11104 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 13:05:30,713 INFO 13388 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 13:05:30,713 INFO 13388 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 13:05:30,713 INFO 13388 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 13:32:09,075 INFO 13608 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 13:32:09,075 INFO 13608 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 13:32:09,075 INFO 13608 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 13:45:30,308 INFO 18036 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 13:45:30,308 INFO 18036 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 13:45:30,308 INFO 18036 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 13:45:36,784 INFO 15460 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 13:45:36,784 INFO 15460 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 13:45:36,784 INFO 15460 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 14:34:04,948 INFO 14304 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 14:34:04,948 INFO 14304 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 14:34:04,948 INFO 14304 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 14:46:11,068 INFO 21048 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 14:46:11,068 INFO 21048 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 14:46:11,068 INFO 21048 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 14:46:16,994 INFO 9152 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 14:46:16,994 INFO 9152 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 14:46:16,994 INFO 9152 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 15:14:34,957 INFO 10484 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 15:14:34,957 INFO 10484 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 15:14:34,957 INFO 10484 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 15:27:10,877 INFO 9000 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 15:27:10,877 INFO 9000 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 15:27:10,877 INFO 9000 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 15:27:16,944 INFO 4264 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 15:27:16,944 INFO 4264 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 15:27:16,944 INFO 4264 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 15:47:40,842 INFO 14968 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 15:47:40,842 INFO 14968 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 15:47:40,842 INFO 14968 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 15:47:48,075 INFO 18760 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 15:47:48,075 INFO 18760 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 15:47:48,075 INFO 18760 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 16:37:23,460 INFO 19212 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 16:37:23,460 INFO 19212 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 16:37:23,460 INFO 19212 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 16:48:11,157 INFO 6284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 16:48:11,157 INFO 6284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 16:48:11,157 INFO 6284 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 16:48:16,073 INFO 18340 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 16:48:16,073 INFO 18340 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 16:48:16,073 INFO 18340 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 17:16:29,447 INFO 13468 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 17:16:29,447 INFO 13468 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 17:16:29,447 INFO 13468 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 17:19:53,611 INFO 14112 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 17:19:53,611 INFO 14112 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 17:19:53,611 INFO 14112 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 17:51:30,278 INFO 16696 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 17:51:30,278 INFO 16696 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 17:51:30,278 INFO 16696 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 17:51:37,584 INFO 10244 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 17:51:37,584 INFO 10244 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 17:51:37,584 INFO 10244 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 19:26:36,969 INFO 4516 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 19:26:36,969 INFO 4516 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 19:26:36,969 INFO 4516 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 19:26:43,684 INFO 21220 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 19:26:43,684 INFO 21220 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 19:26:43,684 INFO 21220 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 20:26:45,654 INFO 17704 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 20:26:45,654 INFO 17704 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 20:26:45,654 INFO 17704 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-04 20:26:51,509 INFO 12748 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-06-04 20:26:51,509 INFO 12748 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-06-04 20:26:51,509 INFO 12748 [egg-schedule]: register schedule C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-06-05 00:00:00,015 INFO 15184 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399999ms at 2020-06-06 00:00:00.014
+2020-06-05 00:00:00,002 INFO 12748 [Job#15912863999914766648665370001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-06-05 00:00:00,012 INFO 12748 [Job#15912863999914766648665370001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 9ms
+2020-06-05 00:00:00,982 INFO 12748 [Job#15912864009824766658555610001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-06-05 00:00:00,998 INFO 12748 [Job#15912864009824766658555610001] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 16ms
+2020-06-05 00:00:00,989 INFO 15184 [Timer] C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400018ms at 2020-06-06 00:00:01.007

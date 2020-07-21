@@ -1,0 +1,981 @@
+2020-05-29 19:25:56,967 ERROR 6400 [-/127.0.0.1/-/6ms GET /getList] nodejs.TypeError: Cannot read property 'List' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:34)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 6400
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:27:55,299 ERROR 2924 [-/127.0.0.1/-/14ms GET /getList] nodejs.TypeError: Cannot read property 'list' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:34)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 2924
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:29:09,401 ERROR 2924 [-/127.0.0.1/-/1ms GET /getList] nodejs.TypeError: Cannot read property 'list' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:34)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 2924
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:30:38,231 ERROR 15688 [-/127.0.0.1/-/16ms GET /getList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:39)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 15688
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:31:23,415 ERROR 15688 [-/127.0.0.1/-/2ms GET /getList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:39)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 15688
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:32:17,317 ERROR 10188 [-/127.0.0.1/-/7ms GET /getList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:39)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 10188
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:43:32,118 ERROR 8868 [-/127.0.0.1/-/6ms GET /getList] nodejs.TypeError: Cannot read property 'findById' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:39)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 8868
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:46:10,920 ERROR 9676 [-/127.0.0.1/-/6ms GET /getList] nodejs.TypeError: Cannot read property 'findById' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:7:48)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 9676
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:50:57,935 ERROR 20584 [-/127.0.0.1/-/6ms GET /getList] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:7:48)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 20584
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 19:56:32,228 ERROR 15548 [-/127.0.0.1/-/23ms GET /getList] nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Query.handler [as onResult] (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Query.execute (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:645:29
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:645:12
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:641:10
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.select (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\query-interface.js:1121:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\model.js:1759:34
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at Function.findAll (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\model.js:1757:8)
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:7:48)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `list_item` AS `listItem`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `lists` AS `lists`;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `list_item` AS `listItem`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `lists` AS `lists`;"}
+sql: "SELECT `id`, `list_item` AS `listItem`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `lists` AS `lists`;"
+parameters: undefined
+pid: 15548
+hostname: L-PF0VSSR6-1127
+
+2020-05-29 21:41:36,547 ERROR 20764 [-/127.0.0.1/-/6ms POST /addList?value=%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AAlist&_csrf=HLXZCrMy-9F-Kof8sWbaJUjEhCnP288a_TXk] nodejs.TypeError: service.list.addList is not a function
+    at ListController.addList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:17:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+
+pid: 20764
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 12:15:14,461 ERROR 14780 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+From previous event:
+    at ConnectionManager.connect (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:120:13)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:8)
+    at ConnectionManager.getConnection (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:254:46)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:640:36
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:631:53
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:580:23)
+    at Sequelize.authenticate (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:892:17)
+    at authenticate (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:134:22)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:40:49
+    at Array.map (<anonymous>)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:40:33
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:42)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 14780
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 12:17:14,112 ERROR 14652 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:123:19
+From previous event:
+    at ConnectionManager.connect (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:120:13)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:318:8)
+    at ConnectionManager.getConnection (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:254:46)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:640:36
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:631:53
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:580:23)
+    at Sequelize.authenticate (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\sequelize\lib\sequelize.js:892:17)
+    at authenticate (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:134:22)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:40:49
+    at Array.map (<anonymous>)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-sequelize\lib\loader.js:40:33
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:42)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 14652
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 12:46:15,495 ERROR 804 [-/127.0.0.1/-/11ms GET /getList] nodejs.ReferenceError: ctx is not defined
+    at ListService.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:8:21)
+    at ListController.getList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:8:38)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 804
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:12:01,560 ERROR 13900 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13900
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:28:02,407 ERROR 16316 [-/127.0.0.1/-/50ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'destory' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:21:42)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 16316
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:28:45,031 ERROR 16072 [-/127.0.0.1/-/75ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'destroy' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:21:42)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 16072
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:30:51,242 ERROR 15220 [-/127.0.0.1/-/69ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'destroy' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:19:47)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 15220
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:31:36,740 ERROR 11564 [-/127.0.0.1/-/53ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'destroy' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:19:47)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 11564
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:32:07,916 ERROR 11564 [-/127.0.0.1/-/2ms POST /addList] nodejs.ReferenceError: ctx is not defined
+    at ListService.addList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:13:23)
+    at ListController.addList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:11:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 11564
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:34:31,591 ERROR 15132 [-/127.0.0.1/-/79ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'destroy' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:19:47)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 15132
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:35:30,802 ERROR 2836 [-/127.0.0.1/-/65ms DELETE /deleteList] nodejs.ReferenceError: ctx is not defined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:20:26)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 2836
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:35:47,751 ERROR 10684 [-/127.0.0.1/-/64ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:20:40)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 10684
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:37:13,346 ERROR 14668 [-/127.0.0.1/-/69ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:21:40)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 14668
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:38:01,794 ERROR 2492 [-/127.0.0.1/-/71ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:21:40)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 2492
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:40:37,806 ERROR 16164 [-/127.0.0.1/-/65ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:21:49)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 16164
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:41:38,644 ERROR 5812 [-/127.0.0.1/-/53ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:22:35)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 5812
+hostname: L-PF0VSSR6-1127
+
+2020-05-30 13:42:54,781 ERROR 16200 [-/127.0.0.1/-/53ms DELETE /deleteList] nodejs.TypeError: Cannot read property 'id' of undefined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\service\list.js:22:41)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\egg  workFiles\test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+
+pid: 16200
+hostname: L-PF0VSSR6-1127
+
+2020-06-02 19:59:43,737 ERROR 8724 [-/127.0.0.1/-/102ms DELETE /deleteList] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2184:13)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query-generator.js:293:18)
+    at QueryInterface.bulkDelete (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:1113:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2950:34
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at Function.destroy (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2933:8)
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:21:48)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8724
+hostname: L-PF0VSSR6-1127
+
+2020-06-02 19:59:50,987 ERROR 8724 [-/127.0.0.1/-/6ms DELETE /deleteList] nodejs.Error: WHERE parameter "id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2184:13)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2173:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2583:19)
+    at MySQLQueryGenerator.deleteQuery (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query-generator.js:293:18)
+    at QueryInterface.bulkDelete (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:1113:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2950:34
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at Function.destroy (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2933:8)
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:21:48)
+    at ListController.deleteList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:15:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 8724
+hostname: L-PF0VSSR6-1127
+
+2020-06-02 20:16:25,427 ERROR 14576 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14576
+hostname: L-PF0VSSR6-1127
+
+2020-06-03 14:54:59,236 ERROR 15696 [-/127.0.0.1/-/98ms POST /addList] nodejs.SequelizeDatabaseError: Field 'content' doesn't have a default value
+    at Query.formatError (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:244:16)
+    at Execute.handler [as onResult] (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:51:23)
+    at Execute.execute (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\commands\command.js:30:14)
+    at Connection.handlePacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:417:32)
+    at PacketParser.onPacket (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:75:12)
+    at PacketParser.executeStart (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\mysql2\lib\connection.js:82:25)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+From previous event:
+    at Query.run (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\dialects\mysql\query.js:39:12)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:29
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:645:12
+From previous event:
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:641:10
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\retry-as-promised\index.js:60:10)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:631:30
+From previous event:
+    at Sequelize.query (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\sequelize.js:580:23)
+    at QueryInterface.insert (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\query-interface.js:885:27)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3989:52
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at model.save (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:3966:8)
+    at Function.create (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\sequelize\lib\model.js:2230:8)
+    at ListService.addList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:13:47)
+    at ListController.addList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:11:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xssProtection (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`,`list_item`,`is_done`) VALUES (DEFAULT,?,?);","parameters":["map",false]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'content' doesn't have a default value","sql":"INSERT INTO `lists` (`id`,`list_item`,`is_done`) VALUES (DEFAULT,?,?);","parameters":["map",false]}
+sql: "INSERT INTO `lists` (`id`,`list_item`,`is_done`) VALUES (DEFAULT,?,?);"
+parameters: ["map",false]
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15696
+hostname: L-PF0VSSR6-1127
+
+2020-06-03 16:15:44,570 ERROR 20844 [-/127.0.0.1/-/51ms DELETE /lists/46] nodejs.ReferenceError: code is not defined
+    at ListService.deleteList (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\service\list.js:29:18)
+    at ListController.destroy (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\controller\list.js:24:49)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 20844
+hostname: L-PF0VSSR6-1127
+
+2020-06-03 19:02:00,896 ERROR 19000 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19000
+hostname: L-PF0VSSR6-1127
+
+2020-06-03 20:36:00,300 ERROR 19000 nodejs.ClusterClientNoResponseError: client no response in 196812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 19000
+hostname: L-PF0VSSR6-1127
+

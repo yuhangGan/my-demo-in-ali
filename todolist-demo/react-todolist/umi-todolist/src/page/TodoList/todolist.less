@@ -1,0 +1,82 @@
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.home {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.page-number {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(255, 183, 95);
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: block;
+    outline-color: rgb(238, 133, 4);
+}
+
+
+.list-box {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+
+.list-item {
+    @keyframes itemOnShow {
+        from {
+            margin-left: 100%;
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+            margin-left: 0;
+        }
+    }
+
+    width: 100%;
+    white-space: pre;
+    cursor: pointer;
+    padding: 10px 0;
+    border-top: 1px solid rgba(238, 133, 4, .3);
+    border-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    animation: itemOnShow 1s forwards;
+
+    button {
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.item-title:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.list-item:last-child {
+    border-bottom: 1px solid rgba(238, 133, 4, .3);
+}
+
+.finished {
+    color: green;
+}

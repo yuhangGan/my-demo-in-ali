@@ -1,0 +1,35 @@
+.loading {
+  display: block;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+
+  @keyframes loading {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  &-img {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    margin-top: 30vh;
+    animation: loading 0.8s ease-in-out infinite;
+  }
+
+  &-content {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60rpx;
+  }
+}

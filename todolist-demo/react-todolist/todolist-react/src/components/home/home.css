@@ -1,0 +1,28 @@
+.home {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.list-box {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.page-number {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    color: orange;
+}

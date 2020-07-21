@@ -1,0 +1,57 @@
+.home {
+  width: 100%;
+  padding-top: 100rpx;
+}
+
+.title {
+  font-size: 45rpx;
+  font-weight: bold;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+
+.input-box {
+  width: 75%;
+  margin: 10rpx auto;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: space-between;
+
+  .plan-input {
+    padding: 3%;
+    border: 1rpx solid orange !important;
+    border-radius: 5rpx;
+    transition: width 0.5s;
+  }
+
+  .confirm-btn {
+    text-align: center;
+    overflow: hidden;
+  }
+}
+
+.lists {
+  width: 80%;
+  margin: 50rpx auto;
+  overflow: hidden;
+}
+
+.pagination {
+  width: 70%;
+  margin: 30rpx auto;
+  justify-content: center;
+  align-items: center;
+
+  &-item {
+    margin-left: 20rpx;
+    border: 1rpx solid orange;
+    border-radius: 5rpx;
+    padding: 5rpx;
+  }
+
+  .atCurPage {
+    background-color: orange;
+    color: white;
+  }
+}

@@ -1,0 +1,25 @@
+.list-item {
+    width: 100%;
+    white-space: pre;
+    cursor: pointer;
+    padding: 10px 0;
+    border-top: 1px solid rgba(238, 133, 4, .3);
+    border-bottom: 0;
+}
+
+.list-item:last-child {
+    border-bottom: 1px solid rgba(238, 133, 4, .3);
+}
+
+.finished {
+    color: green;
+}
+
+button {
+    float: right;
+    margin-right: 10px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

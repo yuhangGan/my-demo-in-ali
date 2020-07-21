@@ -1,0 +1,590 @@
+2020-06-05 00:00:01,004 INFO 12748 [egg-logrotator] app logger reload: got log-reload message
+2020-06-05 04:30:00,002 INFO 12748 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\shiliu.gyh\\AppData\\Local\\Temp\\egg-multipart-tmp\\test"
+2020-06-05 04:30:00,009 INFO 12748 [-/127.0.0.1/-/9ms SCHEDULE /__schedule?path=C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-06-05 09:39:16,844 INFO 13992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 09:39:16,975 INFO 13992 [egg-multipart] stream mode enable
+2020-06-05 09:39:18,957 INFO 13992 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 09:39:18,973 INFO 13992 [egg-security] use methodnoallow middleware
+2020-06-05 09:39:18,976 INFO 13992 [egg-security] use noopen middleware
+2020-06-05 09:39:18,980 INFO 13992 [egg-security] use nosniff middleware
+2020-06-05 09:39:18,983 INFO 13992 [egg-security] use xssProtection middleware
+2020-06-05 09:39:18,986 INFO 13992 [egg-security] use xframe middleware
+2020-06-05 09:39:18,989 INFO 13992 [egg-security] use dta middleware
+2020-06-05 09:39:18,989 INFO 13992 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 09:39:19,057 INFO 13992 [egg:core] dump config after load, 33ms
+2020-06-05 09:39:19,197 INFO 13992 [egg-watcher:application] watcher start success
+2020-06-05 09:39:19,453 INFO 13992 [egg:core] dump config after ready, 139ms
+2020-06-05 09:39:22,945 INFO 7752 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 09:39:22,999 INFO 7752 [egg-multipart] stream mode enable
+2020-06-05 09:39:23,979 INFO 7752 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 09:39:23,985 INFO 7752 [egg-security] use methodnoallow middleware
+2020-06-05 09:39:23,987 INFO 7752 [egg-security] use noopen middleware
+2020-06-05 09:39:23,989 INFO 7752 [egg-security] use nosniff middleware
+2020-06-05 09:39:23,991 INFO 7752 [egg-security] use xssProtection middleware
+2020-06-05 09:39:23,993 INFO 7752 [egg-security] use xframe middleware
+2020-06-05 09:39:23,995 INFO 7752 [egg-security] use dta middleware
+2020-06-05 09:39:23,995 INFO 7752 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 09:39:24,019 INFO 7752 [egg:core] dump config after load, 12ms
+2020-06-05 09:39:24,099 INFO 7752 [egg-watcher:application] watcher start success
+2020-06-05 09:39:24,164 INFO 7752 [egg:core] dump config after ready, 20ms
+2020-06-05 09:47:32,605 INFO 15708 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 09:47:32,660 INFO 15708 [egg-multipart] stream mode enable
+2020-06-05 09:47:33,648 INFO 15708 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 09:47:33,653 INFO 15708 [egg-security] use methodnoallow middleware
+2020-06-05 09:47:33,655 INFO 15708 [egg-security] use noopen middleware
+2020-06-05 09:47:33,657 INFO 15708 [egg-security] use nosniff middleware
+2020-06-05 09:47:33,659 INFO 15708 [egg-security] use xssProtection middleware
+2020-06-05 09:47:33,661 INFO 15708 [egg-security] use xframe middleware
+2020-06-05 09:47:33,663 INFO 15708 [egg-security] use dta middleware
+2020-06-05 09:47:33,663 INFO 15708 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 09:47:33,685 INFO 15708 [egg:core] dump config after load, 11ms
+2020-06-05 09:47:33,748 INFO 15708 [egg-watcher:application] watcher start success
+2020-06-05 09:47:33,846 INFO 15708 [egg:core] dump config after ready, 19ms
+2020-06-05 09:58:20,084 INFO 2124 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 09:58:20,143 INFO 2124 [egg-multipart] stream mode enable
+2020-06-05 09:58:21,474 INFO 2124 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 09:58:21,479 INFO 2124 [egg-security] use methodnoallow middleware
+2020-06-05 09:58:21,482 INFO 2124 [egg-security] use noopen middleware
+2020-06-05 09:58:21,485 INFO 2124 [egg-security] use nosniff middleware
+2020-06-05 09:58:21,487 INFO 2124 [egg-security] use xssProtection middleware
+2020-06-05 09:58:21,489 INFO 2124 [egg-security] use xframe middleware
+2020-06-05 09:58:21,491 INFO 2124 [egg-security] use dta middleware
+2020-06-05 09:58:21,491 INFO 2124 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 09:58:21,522 INFO 2124 [egg:core] dump config after load, 11ms
+2020-06-05 09:58:21,639 INFO 2124 [egg-watcher:application] watcher start success
+2020-06-05 09:58:21,714 INFO 2124 [egg:core] dump config after ready, 28ms
+2020-06-05 10:39:33,275 INFO 20776 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 10:39:33,467 INFO 20776 [egg-multipart] stream mode enable
+2020-06-05 10:39:35,819 INFO 20776 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 10:39:35,830 INFO 20776 [egg-security] use methodnoallow middleware
+2020-06-05 10:39:35,833 INFO 20776 [egg-security] use noopen middleware
+2020-06-05 10:39:35,836 INFO 20776 [egg-security] use nosniff middleware
+2020-06-05 10:39:35,839 INFO 20776 [egg-security] use xssProtection middleware
+2020-06-05 10:39:35,841 INFO 20776 [egg-security] use xframe middleware
+2020-06-05 10:39:35,844 INFO 20776 [egg-security] use dta middleware
+2020-06-05 10:39:35,844 INFO 20776 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 10:39:35,931 INFO 20776 [egg:core] dump config after load, 54ms
+2020-06-05 10:39:36,080 INFO 20776 [egg-watcher:application] watcher start success
+2020-06-05 10:39:36,424 INFO 20776 [egg:core] dump config after ready, 207ms
+2020-06-05 10:39:40,691 INFO 14988 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 10:39:40,772 INFO 14988 [egg-multipart] stream mode enable
+2020-06-05 10:39:41,797 INFO 14988 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 10:39:41,802 INFO 14988 [egg-security] use methodnoallow middleware
+2020-06-05 10:39:41,805 INFO 14988 [egg-security] use noopen middleware
+2020-06-05 10:39:41,807 INFO 14988 [egg-security] use nosniff middleware
+2020-06-05 10:39:41,809 INFO 14988 [egg-security] use xssProtection middleware
+2020-06-05 10:39:41,811 INFO 14988 [egg-security] use xframe middleware
+2020-06-05 10:39:41,812 INFO 14988 [egg-security] use dta middleware
+2020-06-05 10:39:41,812 INFO 14988 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 10:39:41,836 INFO 14988 [egg:core] dump config after load, 12ms
+2020-06-05 10:39:41,897 INFO 14988 [egg-watcher:application] watcher start success
+2020-06-05 10:39:41,968 INFO 14988 [egg:core] dump config after ready, 21ms
+2020-06-05 12:00:17,970 INFO 15868 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:00:18,056 INFO 15868 [egg-multipart] stream mode enable
+2020-06-05 12:00:19,484 INFO 15868 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:00:19,494 INFO 15868 [egg-security] use methodnoallow middleware
+2020-06-05 12:00:19,497 INFO 15868 [egg-security] use noopen middleware
+2020-06-05 12:00:19,501 INFO 15868 [egg-security] use nosniff middleware
+2020-06-05 12:00:19,503 INFO 15868 [egg-security] use xssProtection middleware
+2020-06-05 12:00:19,505 INFO 15868 [egg-security] use xframe middleware
+2020-06-05 12:00:19,507 INFO 15868 [egg-security] use dta middleware
+2020-06-05 12:00:19,507 INFO 15868 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:00:19,581 INFO 15868 [egg:core] dump config after load, 31ms
+2020-06-05 12:00:19,701 INFO 15868 [egg-watcher:application] watcher start success
+2020-06-05 12:00:19,780 INFO 15868 [egg:core] dump config after ready, 25ms
+2020-06-05 12:00:23,090 INFO 12432 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:00:23,151 INFO 12432 [egg-multipart] stream mode enable
+2020-06-05 12:00:24,129 INFO 12432 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:00:24,134 INFO 12432 [egg-security] use methodnoallow middleware
+2020-06-05 12:00:24,137 INFO 12432 [egg-security] use noopen middleware
+2020-06-05 12:00:24,139 INFO 12432 [egg-security] use nosniff middleware
+2020-06-05 12:00:24,141 INFO 12432 [egg-security] use xssProtection middleware
+2020-06-05 12:00:24,143 INFO 12432 [egg-security] use xframe middleware
+2020-06-05 12:00:24,144 INFO 12432 [egg-security] use dta middleware
+2020-06-05 12:00:24,145 INFO 12432 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:00:24,167 INFO 12432 [egg:core] dump config after load, 11ms
+2020-06-05 12:00:24,231 INFO 12432 [egg-watcher:application] watcher start success
+2020-06-05 12:00:24,303 INFO 12432 [egg:core] dump config after ready, 26ms
+2020-06-05 12:10:51,712 INFO 11228 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:10:51,822 INFO 11228 [egg-multipart] stream mode enable
+2020-06-05 12:10:54,632 INFO 11228 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:10:54,640 INFO 11228 [egg-security] use methodnoallow middleware
+2020-06-05 12:10:54,643 INFO 11228 [egg-security] use noopen middleware
+2020-06-05 12:10:54,647 INFO 11228 [egg-security] use nosniff middleware
+2020-06-05 12:10:54,650 INFO 11228 [egg-security] use xssProtection middleware
+2020-06-05 12:10:54,653 INFO 11228 [egg-security] use xframe middleware
+2020-06-05 12:10:54,656 INFO 11228 [egg-security] use dta middleware
+2020-06-05 12:10:54,656 INFO 11228 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:10:54,714 INFO 11228 [egg:core] dump config after load, 39ms
+2020-06-05 12:10:54,825 INFO 11228 [egg-watcher:application] watcher start success
+2020-06-05 12:10:54,935 INFO 11228 [egg:core] dump config after ready, 29ms
+2020-06-05 12:11:04,219 INFO 12560 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:04,336 INFO 12560 [egg-multipart] stream mode enable
+2020-06-05 12:11:06,665 INFO 12560 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:06,673 INFO 12560 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:06,676 INFO 12560 [egg-security] use noopen middleware
+2020-06-05 12:11:06,680 INFO 12560 [egg-security] use nosniff middleware
+2020-06-05 12:11:06,685 INFO 12560 [egg-security] use xssProtection middleware
+2020-06-05 12:11:06,687 INFO 12560 [egg-security] use xframe middleware
+2020-06-05 12:11:06,689 INFO 12560 [egg-security] use dta middleware
+2020-06-05 12:11:06,689 INFO 12560 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:06,742 INFO 12560 [egg:core] dump config after load, 22ms
+2020-06-05 12:11:06,917 INFO 12560 [egg-watcher:application] watcher start success
+2020-06-05 12:11:07,233 INFO 12560 [egg:core] dump config after ready, 81ms
+2020-06-05 12:11:17,793 INFO 21516 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:17,892 INFO 21516 [egg-multipart] stream mode enable
+2020-06-05 12:11:19,199 INFO 21516 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:19,206 INFO 21516 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:19,208 INFO 21516 [egg-security] use noopen middleware
+2020-06-05 12:11:19,211 INFO 21516 [egg-security] use nosniff middleware
+2020-06-05 12:11:19,213 INFO 21516 [egg-security] use xssProtection middleware
+2020-06-05 12:11:19,215 INFO 21516 [egg-security] use xframe middleware
+2020-06-05 12:11:19,217 INFO 21516 [egg-security] use dta middleware
+2020-06-05 12:11:19,217 INFO 21516 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:19,254 INFO 21516 [egg:core] dump config after load, 21ms
+2020-06-05 12:11:19,393 INFO 21516 [egg-watcher:application] watcher start success
+2020-06-05 12:11:19,528 INFO 21516 [egg:core] dump config after ready, 54ms
+2020-06-05 12:11:28,913 INFO 12252 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:28,992 INFO 12252 [egg-multipart] stream mode enable
+2020-06-05 12:11:31,646 INFO 12252 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:31,655 INFO 12252 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:31,658 INFO 12252 [egg-security] use noopen middleware
+2020-06-05 12:11:31,666 INFO 12252 [egg-security] use nosniff middleware
+2020-06-05 12:11:31,668 INFO 12252 [egg-security] use xssProtection middleware
+2020-06-05 12:11:31,671 INFO 12252 [egg-security] use xframe middleware
+2020-06-05 12:11:31,673 INFO 12252 [egg-security] use dta middleware
+2020-06-05 12:11:31,674 INFO 12252 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:31,835 INFO 12252 [egg:core] dump config after load, 135ms
+2020-06-05 12:11:29,203 INFO 13220 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:29,277 INFO 13220 [egg-multipart] stream mode enable
+2020-06-05 12:11:32,136 INFO 13220 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:32,144 INFO 13220 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:32,147 INFO 13220 [egg-security] use noopen middleware
+2020-06-05 12:11:32,150 INFO 13220 [egg-security] use nosniff middleware
+2020-06-05 12:11:32,153 INFO 13220 [egg-security] use xssProtection middleware
+2020-06-05 12:11:32,210 INFO 13220 [egg-security] use xframe middleware
+2020-06-05 12:11:32,213 INFO 13220 [egg-security] use dta middleware
+2020-06-05 12:11:32,213 INFO 13220 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:32,320 INFO 13220 [egg:core] dump config after load, 89ms
+2020-06-05 12:11:41,770 INFO 3656 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:41,952 INFO 3656 [egg-multipart] stream mode enable
+2020-06-05 12:11:44,387 INFO 3656 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:44,396 INFO 3656 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:44,398 INFO 3656 [egg-security] use noopen middleware
+2020-06-05 12:11:44,402 INFO 3656 [egg-security] use nosniff middleware
+2020-06-05 12:11:44,404 INFO 3656 [egg-security] use xssProtection middleware
+2020-06-05 12:11:44,406 INFO 3656 [egg-security] use xframe middleware
+2020-06-05 12:11:44,409 INFO 3656 [egg-security] use dta middleware
+2020-06-05 12:11:44,409 INFO 3656 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:44,455 INFO 3656 [egg:core] dump config after load, 17ms
+2020-06-05 12:11:44,709 INFO 3656 [egg-watcher:application] watcher start success
+2020-06-05 12:11:44,830 INFO 3656 [egg:core] dump config after ready, 19ms
+2020-06-05 12:11:43,584 INFO 2912 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:43,774 INFO 2912 [egg-multipart] stream mode enable
+2020-06-05 12:11:46,004 INFO 2912 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:46,017 INFO 2912 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:46,020 INFO 2912 [egg-security] use noopen middleware
+2020-06-05 12:11:46,023 INFO 2912 [egg-security] use nosniff middleware
+2020-06-05 12:11:46,025 INFO 2912 [egg-security] use xssProtection middleware
+2020-06-05 12:11:46,028 INFO 2912 [egg-security] use xframe middleware
+2020-06-05 12:11:46,030 INFO 2912 [egg-security] use dta middleware
+2020-06-05 12:11:46,030 INFO 2912 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:46,094 INFO 2912 [egg:core] dump config after load, 45ms
+2020-06-05 12:11:51,009 INFO 17280 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:11:51,620 INFO 17280 [egg-multipart] stream mode enable
+2020-06-05 12:11:54,065 INFO 17280 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:11:54,086 INFO 17280 [egg-security] use methodnoallow middleware
+2020-06-05 12:11:54,088 INFO 17280 [egg-security] use noopen middleware
+2020-06-05 12:11:54,092 INFO 17280 [egg-security] use nosniff middleware
+2020-06-05 12:11:54,094 INFO 17280 [egg-security] use xssProtection middleware
+2020-06-05 12:11:54,097 INFO 17280 [egg-security] use xframe middleware
+2020-06-05 12:11:54,099 INFO 17280 [egg-security] use dta middleware
+2020-06-05 12:11:54,099 INFO 17280 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:11:54,274 INFO 17280 [egg:core] dump config after load, 73ms
+2020-06-05 12:11:54,414 INFO 17280 [egg-watcher:application] watcher start success
+2020-06-05 12:11:54,618 INFO 17280 [egg:core] dump config after ready, 122ms
+2020-06-05 12:12:01,312 INFO 22176 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 12:12:01,374 INFO 22176 [egg-multipart] stream mode enable
+2020-06-05 12:12:02,479 INFO 22176 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 12:12:02,486 INFO 22176 [egg-security] use methodnoallow middleware
+2020-06-05 12:12:02,488 INFO 22176 [egg-security] use noopen middleware
+2020-06-05 12:12:02,492 INFO 22176 [egg-security] use nosniff middleware
+2020-06-05 12:12:02,493 INFO 22176 [egg-security] use xssProtection middleware
+2020-06-05 12:12:02,495 INFO 22176 [egg-security] use xframe middleware
+2020-06-05 12:12:02,497 INFO 22176 [egg-security] use dta middleware
+2020-06-05 12:12:02,497 INFO 22176 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 12:12:02,520 INFO 22176 [egg:core] dump config after load, 12ms
+2020-06-05 12:12:02,607 INFO 22176 [egg-watcher:application] watcher start success
+2020-06-05 12:12:02,688 INFO 22176 [egg:core] dump config after ready, 28ms
+2020-06-05 13:37:14,458 INFO 9976 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 13:37:14,589 INFO 9976 [egg-multipart] stream mode enable
+2020-06-05 13:37:16,862 INFO 9976 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 13:37:16,869 INFO 9976 [egg-security] use methodnoallow middleware
+2020-06-05 13:37:16,872 INFO 9976 [egg-security] use noopen middleware
+2020-06-05 13:37:16,879 INFO 9976 [egg-security] use nosniff middleware
+2020-06-05 13:37:16,882 INFO 9976 [egg-security] use xssProtection middleware
+2020-06-05 13:37:16,884 INFO 9976 [egg-security] use xframe middleware
+2020-06-05 13:37:16,886 INFO 9976 [egg-security] use dta middleware
+2020-06-05 13:37:16,887 INFO 9976 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 13:37:16,952 INFO 9976 [egg:core] dump config after load, 46ms
+2020-06-05 13:37:17,079 INFO 9976 [egg-watcher:application] watcher start success
+2020-06-05 13:37:17,195 INFO 9976 [egg:core] dump config after ready, 40ms
+2020-06-05 13:37:21,446 INFO 19848 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 13:37:21,553 INFO 19848 [egg-multipart] stream mode enable
+2020-06-05 13:37:23,046 INFO 19848 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 13:37:23,052 INFO 19848 [egg-security] use methodnoallow middleware
+2020-06-05 13:37:23,054 INFO 19848 [egg-security] use noopen middleware
+2020-06-05 13:37:23,057 INFO 19848 [egg-security] use nosniff middleware
+2020-06-05 13:37:23,063 INFO 19848 [egg-security] use xssProtection middleware
+2020-06-05 13:37:23,065 INFO 19848 [egg-security] use xframe middleware
+2020-06-05 13:37:23,067 INFO 19848 [egg-security] use dta middleware
+2020-06-05 13:37:23,067 INFO 19848 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 13:37:23,104 INFO 19848 [egg:core] dump config after load, 17ms
+2020-06-05 13:37:23,206 INFO 19848 [egg-watcher:application] watcher start success
+2020-06-05 13:37:23,359 INFO 19848 [egg:core] dump config after ready, 59ms
+2020-06-05 14:35:23,058 INFO 16424 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 14:35:23,127 INFO 16424 [egg-multipart] stream mode enable
+2020-06-05 14:35:24,592 INFO 16424 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 14:35:24,600 INFO 16424 [egg-security] use methodnoallow middleware
+2020-06-05 14:35:24,603 INFO 16424 [egg-security] use noopen middleware
+2020-06-05 14:35:24,607 INFO 16424 [egg-security] use nosniff middleware
+2020-06-05 14:35:24,609 INFO 16424 [egg-security] use xssProtection middleware
+2020-06-05 14:35:24,612 INFO 16424 [egg-security] use xframe middleware
+2020-06-05 14:35:24,614 INFO 16424 [egg-security] use dta middleware
+2020-06-05 14:35:24,614 INFO 16424 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 14:35:24,640 INFO 16424 [egg:core] dump config after load, 14ms
+2020-06-05 14:35:24,719 INFO 16424 [egg-watcher:application] watcher start success
+2020-06-05 14:35:24,814 INFO 16424 [egg:core] dump config after ready, 22ms
+2020-06-05 14:35:29,767 INFO 10040 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 14:35:29,828 INFO 10040 [egg-multipart] stream mode enable
+2020-06-05 14:35:31,202 INFO 10040 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 14:35:31,207 INFO 10040 [egg-security] use methodnoallow middleware
+2020-06-05 14:35:31,209 INFO 10040 [egg-security] use noopen middleware
+2020-06-05 14:35:31,212 INFO 10040 [egg-security] use nosniff middleware
+2020-06-05 14:35:31,215 INFO 10040 [egg-security] use xssProtection middleware
+2020-06-05 14:35:31,217 INFO 10040 [egg-security] use xframe middleware
+2020-06-05 14:35:31,218 INFO 10040 [egg-security] use dta middleware
+2020-06-05 14:35:31,218 INFO 10040 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 14:35:31,244 INFO 10040 [egg:core] dump config after load, 13ms
+2020-06-05 14:35:31,334 INFO 10040 [egg-watcher:application] watcher start success
+2020-06-05 14:35:31,417 INFO 10040 [egg:core] dump config after ready, 29ms
+2020-06-05 14:38:57,380 INFO 19296 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 14:38:57,456 INFO 19296 [egg-multipart] stream mode enable
+2020-06-05 14:38:59,452 INFO 19296 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 14:38:59,467 INFO 19296 [egg-security] use methodnoallow middleware
+2020-06-05 14:38:59,470 INFO 19296 [egg-security] use noopen middleware
+2020-06-05 14:38:59,474 INFO 19296 [egg-security] use nosniff middleware
+2020-06-05 14:38:59,477 INFO 19296 [egg-security] use xssProtection middleware
+2020-06-05 14:38:59,480 INFO 19296 [egg-security] use xframe middleware
+2020-06-05 14:38:59,483 INFO 19296 [egg-security] use dta middleware
+2020-06-05 14:38:59,483 INFO 19296 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 14:38:59,562 INFO 19296 [egg:core] dump config after load, 52ms
+2020-06-05 14:38:59,697 INFO 19296 [egg-watcher:application] watcher start success
+2020-06-05 14:38:59,831 INFO 19296 [egg:core] dump config after ready, 47ms
+2020-06-05 14:39:04,733 INFO 15344 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-05 14:39:04,832 INFO 15344 [egg-multipart] stream mode enable
+2020-06-05 14:39:06,600 INFO 15344 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-05 14:39:06,605 INFO 15344 [egg-security] use methodnoallow middleware
+2020-06-05 14:39:06,608 INFO 15344 [egg-security] use noopen middleware
+2020-06-05 14:39:06,611 INFO 15344 [egg-security] use nosniff middleware
+2020-06-05 14:39:06,612 INFO 15344 [egg-security] use xssProtection middleware
+2020-06-05 14:39:06,615 INFO 15344 [egg-security] use xframe middleware
+2020-06-05 14:39:06,617 INFO 15344 [egg-security] use dta middleware
+2020-06-05 14:39:06,617 INFO 15344 [egg-security] compose 6 middlewares into one security middleware
+2020-06-05 14:39:06,640 INFO 15344 [egg:core] dump config after load, 11ms
+2020-06-05 14:39:06,712 INFO 15344 [egg-watcher:application] watcher start success
+2020-06-05 14:39:06,793 INFO 15344 [egg:core] dump config after ready, 22ms
+2020-06-08 09:39:39,279 INFO 3068 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-08 09:39:39,364 INFO 3068 [egg-multipart] stream mode enable
+2020-06-08 09:39:40,955 INFO 3068 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-08 09:39:40,967 INFO 3068 [egg-security] use methodnoallow middleware
+2020-06-08 09:39:40,970 INFO 3068 [egg-security] use noopen middleware
+2020-06-08 09:39:40,974 INFO 3068 [egg-security] use nosniff middleware
+2020-06-08 09:39:40,977 INFO 3068 [egg-security] use xssProtection middleware
+2020-06-08 09:39:40,980 INFO 3068 [egg-security] use xframe middleware
+2020-06-08 09:39:40,982 INFO 3068 [egg-security] use dta middleware
+2020-06-08 09:39:40,982 INFO 3068 [egg-security] compose 6 middlewares into one security middleware
+2020-06-08 09:39:41,056 INFO 3068 [egg:core] dump config after load, 29ms
+2020-06-08 09:39:41,130 INFO 3068 [egg-watcher:application] watcher start success
+2020-06-08 09:39:41,297 INFO 3068 [egg:core] dump config after ready, 25ms
+2020-06-08 09:39:45,964 INFO 8168 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-08 09:39:46,036 INFO 8168 [egg-multipart] stream mode enable
+2020-06-08 09:39:47,353 INFO 8168 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-08 09:39:47,360 INFO 8168 [egg-security] use methodnoallow middleware
+2020-06-08 09:39:47,363 INFO 8168 [egg-security] use noopen middleware
+2020-06-08 09:39:47,366 INFO 8168 [egg-security] use nosniff middleware
+2020-06-08 09:39:47,369 INFO 8168 [egg-security] use xssProtection middleware
+2020-06-08 09:39:47,371 INFO 8168 [egg-security] use xframe middleware
+2020-06-08 09:39:47,374 INFO 8168 [egg-security] use dta middleware
+2020-06-08 09:39:47,374 INFO 8168 [egg-security] compose 6 middlewares into one security middleware
+2020-06-08 09:39:47,407 INFO 8168 [egg:core] dump config after load, 14ms
+2020-06-08 09:39:47,560 INFO 8168 [egg-watcher:application] watcher start success
+2020-06-08 09:39:47,639 INFO 8168 [egg:core] dump config after ready, 16ms
+2020-06-08 09:39:52,723 INFO 8188 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-08 09:39:52,828 INFO 8188 [egg-multipart] stream mode enable
+2020-06-08 09:39:54,427 INFO 8188 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-08 09:39:54,435 INFO 8188 [egg-security] use methodnoallow middleware
+2020-06-08 09:39:54,437 INFO 8188 [egg-security] use noopen middleware
+2020-06-08 09:39:54,441 INFO 8188 [egg-security] use nosniff middleware
+2020-06-08 09:39:54,444 INFO 8188 [egg-security] use xssProtection middleware
+2020-06-08 09:39:54,446 INFO 8188 [egg-security] use xframe middleware
+2020-06-08 09:39:54,449 INFO 8188 [egg-security] use dta middleware
+2020-06-08 09:39:54,449 INFO 8188 [egg-security] compose 6 middlewares into one security middleware
+2020-06-08 09:39:54,489 INFO 8188 [egg:core] dump config after load, 23ms
+2020-06-08 09:39:54,644 INFO 8188 [egg-watcher:application] watcher start success
+2020-06-08 09:39:54,723 INFO 8188 [egg:core] dump config after ready, 30ms
+2020-06-10 11:29:18,825 INFO 20868 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 11:29:18,894 INFO 20868 [egg-multipart] stream mode enable
+2020-06-10 11:29:20,049 INFO 20868 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 11:29:20,056 INFO 20868 [egg-security] use methodnoallow middleware
+2020-06-10 11:29:20,060 INFO 20868 [egg-security] use noopen middleware
+2020-06-10 11:29:20,064 INFO 20868 [egg-security] use nosniff middleware
+2020-06-10 11:29:20,067 INFO 20868 [egg-security] use xssProtection middleware
+2020-06-10 11:29:20,069 INFO 20868 [egg-security] use xframe middleware
+2020-06-10 11:29:20,071 INFO 20868 [egg-security] use dta middleware
+2020-06-10 11:29:20,071 INFO 20868 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 11:29:20,111 INFO 20868 [egg:core] dump config after load, 24ms
+2020-06-10 11:29:20,194 INFO 20868 [egg-watcher:application] watcher start success
+2020-06-10 11:29:20,262 INFO 20868 [egg:core] dump config after ready, 20ms
+2020-06-10 11:29:25,388 INFO 9320 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 11:29:25,516 INFO 9320 [egg-multipart] stream mode enable
+2020-06-10 11:29:27,520 INFO 9320 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 11:29:27,526 INFO 9320 [egg-security] use methodnoallow middleware
+2020-06-10 11:29:27,528 INFO 9320 [egg-security] use noopen middleware
+2020-06-10 11:29:27,530 INFO 9320 [egg-security] use nosniff middleware
+2020-06-10 11:29:27,532 INFO 9320 [egg-security] use xssProtection middleware
+2020-06-10 11:29:27,534 INFO 9320 [egg-security] use xframe middleware
+2020-06-10 11:29:27,535 INFO 9320 [egg-security] use dta middleware
+2020-06-10 11:29:27,535 INFO 9320 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 11:29:27,564 INFO 9320 [egg:core] dump config after load, 12ms
+2020-06-10 11:29:27,636 INFO 9320 [egg-watcher:application] watcher start success
+2020-06-10 11:29:27,744 INFO 9320 [egg:core] dump config after ready, 25ms
+2020-06-10 11:30:03,267 INFO 7860 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 11:30:03,334 INFO 7860 [egg-multipart] stream mode enable
+2020-06-10 11:30:04,412 INFO 7860 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 11:30:04,419 INFO 7860 [egg-security] use methodnoallow middleware
+2020-06-10 11:30:04,422 INFO 7860 [egg-security] use noopen middleware
+2020-06-10 11:30:04,425 INFO 7860 [egg-security] use nosniff middleware
+2020-06-10 11:30:04,427 INFO 7860 [egg-security] use xssProtection middleware
+2020-06-10 11:30:04,430 INFO 7860 [egg-security] use xframe middleware
+2020-06-10 11:30:04,432 INFO 7860 [egg-security] use dta middleware
+2020-06-10 11:30:04,432 INFO 7860 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 11:30:04,455 INFO 7860 [egg:core] dump config after load, 11ms
+2020-06-10 11:30:04,547 INFO 7860 [egg-watcher:application] watcher start success
+2020-06-10 11:30:04,622 INFO 7860 [egg:core] dump config after ready, 25ms
+2020-06-10 13:43:51,259 INFO 5952 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 13:43:51,316 INFO 5952 [egg-multipart] stream mode enable
+2020-06-10 13:43:52,453 INFO 5952 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 13:43:52,464 INFO 5952 [egg-security] use methodnoallow middleware
+2020-06-10 13:43:52,467 INFO 5952 [egg-security] use noopen middleware
+2020-06-10 13:43:52,471 INFO 5952 [egg-security] use nosniff middleware
+2020-06-10 13:43:52,475 INFO 5952 [egg-security] use xssProtection middleware
+2020-06-10 13:43:52,477 INFO 5952 [egg-security] use xframe middleware
+2020-06-10 13:43:52,480 INFO 5952 [egg-security] use dta middleware
+2020-06-10 13:43:52,480 INFO 5952 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 13:43:52,554 INFO 5952 [egg:core] dump config after load, 53ms
+2020-06-10 13:43:52,690 INFO 5952 [egg-watcher:application] watcher start success
+2020-06-10 13:43:52,823 INFO 5952 [egg:core] dump config after ready, 77ms
+2020-06-10 13:43:56,274 INFO 6740 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 13:43:56,332 INFO 6740 [egg-multipart] stream mode enable
+2020-06-10 13:43:57,408 INFO 6740 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 13:43:57,416 INFO 6740 [egg-security] use methodnoallow middleware
+2020-06-10 13:43:57,418 INFO 6740 [egg-security] use noopen middleware
+2020-06-10 13:43:57,422 INFO 6740 [egg-security] use nosniff middleware
+2020-06-10 13:43:57,424 INFO 6740 [egg-security] use xssProtection middleware
+2020-06-10 13:43:57,426 INFO 6740 [egg-security] use xframe middleware
+2020-06-10 13:43:57,428 INFO 6740 [egg-security] use dta middleware
+2020-06-10 13:43:57,428 INFO 6740 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 13:43:57,460 INFO 6740 [egg:core] dump config after load, 16ms
+2020-06-10 13:43:57,569 INFO 6740 [egg-watcher:application] watcher start success
+2020-06-10 13:43:57,643 INFO 6740 [egg:core] dump config after ready, 18ms
+2020-06-10 13:44:02,624 INFO 9968 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-10 13:44:02,713 INFO 9968 [egg-multipart] stream mode enable
+2020-06-10 13:44:04,026 INFO 9968 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-10 13:44:04,031 INFO 9968 [egg-security] use methodnoallow middleware
+2020-06-10 13:44:04,034 INFO 9968 [egg-security] use noopen middleware
+2020-06-10 13:44:04,037 INFO 9968 [egg-security] use nosniff middleware
+2020-06-10 13:44:04,039 INFO 9968 [egg-security] use xssProtection middleware
+2020-06-10 13:44:04,041 INFO 9968 [egg-security] use xframe middleware
+2020-06-10 13:44:04,043 INFO 9968 [egg-security] use dta middleware
+2020-06-10 13:44:04,043 INFO 9968 [egg-security] compose 6 middlewares into one security middleware
+2020-06-10 13:44:04,070 INFO 9968 [egg:core] dump config after load, 12ms
+2020-06-10 13:44:04,156 INFO 9968 [egg-watcher:application] watcher start success
+2020-06-10 13:44:04,225 INFO 9968 [egg:core] dump config after ready, 17ms
+2020-06-14 15:20:47,565 INFO 11364 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 15:20:47,616 INFO 11364 [egg-multipart] stream mode enable
+2020-06-14 15:20:48,749 INFO 11364 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 15:20:48,757 INFO 11364 [egg-security] use methodnoallow middleware
+2020-06-14 15:20:48,760 INFO 11364 [egg-security] use noopen middleware
+2020-06-14 15:20:48,764 INFO 11364 [egg-security] use nosniff middleware
+2020-06-14 15:20:48,766 INFO 11364 [egg-security] use xssProtection middleware
+2020-06-14 15:20:48,769 INFO 11364 [egg-security] use xframe middleware
+2020-06-14 15:20:48,772 INFO 11364 [egg-security] use dta middleware
+2020-06-14 15:20:48,772 INFO 11364 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 15:20:48,807 INFO 11364 [egg:core] dump config after load, 18ms
+2020-06-14 15:20:48,907 INFO 11364 [egg-watcher:application] watcher start success
+2020-06-14 15:20:49,022 INFO 11364 [egg:core] dump config after ready, 45ms
+2020-06-14 15:20:53,446 INFO 13428 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 15:20:53,518 INFO 13428 [egg-multipart] stream mode enable
+2020-06-14 15:20:54,602 INFO 13428 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 15:20:54,607 INFO 13428 [egg-security] use methodnoallow middleware
+2020-06-14 15:20:54,609 INFO 13428 [egg-security] use noopen middleware
+2020-06-14 15:20:54,612 INFO 13428 [egg-security] use nosniff middleware
+2020-06-14 15:20:54,614 INFO 13428 [egg-security] use xssProtection middleware
+2020-06-14 15:20:54,616 INFO 13428 [egg-security] use xframe middleware
+2020-06-14 15:20:54,618 INFO 13428 [egg-security] use dta middleware
+2020-06-14 15:20:54,618 INFO 13428 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 15:20:54,642 INFO 13428 [egg:core] dump config after load, 10ms
+2020-06-14 15:20:54,711 INFO 13428 [egg-watcher:application] watcher start success
+2020-06-14 15:20:54,787 INFO 13428 [egg:core] dump config after ready, 29ms
+2020-06-14 15:31:34,507 INFO 6484 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 15:31:34,561 INFO 6484 [egg-multipart] stream mode enable
+2020-06-14 15:31:35,520 INFO 6484 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 15:31:35,525 INFO 6484 [egg-security] use methodnoallow middleware
+2020-06-14 15:31:35,527 INFO 6484 [egg-security] use noopen middleware
+2020-06-14 15:31:35,529 INFO 6484 [egg-security] use nosniff middleware
+2020-06-14 15:31:35,531 INFO 6484 [egg-security] use xssProtection middleware
+2020-06-14 15:31:35,533 INFO 6484 [egg-security] use xframe middleware
+2020-06-14 15:31:35,534 INFO 6484 [egg-security] use dta middleware
+2020-06-14 15:31:35,534 INFO 6484 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 15:31:35,556 INFO 6484 [egg:core] dump config after load, 10ms
+2020-06-14 15:31:35,624 INFO 6484 [egg-watcher:application] watcher start success
+2020-06-14 15:31:35,716 INFO 6484 [egg:core] dump config after ready, 20ms
+2020-06-14 15:34:18,013 INFO 2980 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 15:34:18,079 INFO 2980 [egg-multipart] stream mode enable
+2020-06-14 15:34:19,037 INFO 2980 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 15:34:19,043 INFO 2980 [egg-security] use methodnoallow middleware
+2020-06-14 15:34:19,045 INFO 2980 [egg-security] use noopen middleware
+2020-06-14 15:34:19,047 INFO 2980 [egg-security] use nosniff middleware
+2020-06-14 15:34:19,049 INFO 2980 [egg-security] use xssProtection middleware
+2020-06-14 15:34:19,051 INFO 2980 [egg-security] use xframe middleware
+2020-06-14 15:34:19,053 INFO 2980 [egg-security] use dta middleware
+2020-06-14 15:34:19,053 INFO 2980 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 15:34:19,075 INFO 2980 [egg:core] dump config after load, 10ms
+2020-06-14 15:34:19,134 INFO 2980 [egg-watcher:application] watcher start success
+2020-06-14 15:34:19,202 INFO 2980 [egg:core] dump config after ready, 14ms
+2020-06-14 17:35:24,711 INFO 6364 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 17:35:24,776 INFO 6364 [egg-multipart] stream mode enable
+2020-06-14 17:35:25,922 INFO 6364 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 17:35:25,933 INFO 6364 [egg-security] use methodnoallow middleware
+2020-06-14 17:35:25,937 INFO 6364 [egg-security] use noopen middleware
+2020-06-14 17:35:25,953 INFO 6364 [egg-security] use nosniff middleware
+2020-06-14 17:35:25,956 INFO 6364 [egg-security] use xssProtection middleware
+2020-06-14 17:35:25,962 INFO 6364 [egg-security] use xframe middleware
+2020-06-14 17:35:25,965 INFO 6364 [egg-security] use dta middleware
+2020-06-14 17:35:25,965 INFO 6364 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 17:35:26,079 INFO 6364 [egg:core] dump config after load, 94ms
+2020-06-14 17:35:26,253 INFO 6364 [egg-watcher:application] watcher start success
+2020-06-14 17:35:26,359 INFO 6364 [egg:core] dump config after ready, 17ms
+2020-06-14 17:35:29,824 INFO 10300 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 17:35:29,882 INFO 10300 [egg-multipart] stream mode enable
+2020-06-14 17:35:30,964 INFO 10300 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 17:35:30,971 INFO 10300 [egg-security] use methodnoallow middleware
+2020-06-14 17:35:30,974 INFO 10300 [egg-security] use noopen middleware
+2020-06-14 17:35:30,976 INFO 10300 [egg-security] use nosniff middleware
+2020-06-14 17:35:30,978 INFO 10300 [egg-security] use xssProtection middleware
+2020-06-14 17:35:30,980 INFO 10300 [egg-security] use xframe middleware
+2020-06-14 17:35:30,982 INFO 10300 [egg-security] use dta middleware
+2020-06-14 17:35:30,982 INFO 10300 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 17:35:31,008 INFO 10300 [egg:core] dump config after load, 15ms
+2020-06-14 17:35:31,111 INFO 10300 [egg-watcher:application] watcher start success
+2020-06-14 17:35:31,170 INFO 10300 [egg:core] dump config after ready, 16ms
+2020-06-14 17:35:34,731 INFO 21128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-14 17:35:34,788 INFO 21128 [egg-multipart] stream mode enable
+2020-06-14 17:35:35,812 INFO 21128 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-14 17:35:35,817 INFO 21128 [egg-security] use methodnoallow middleware
+2020-06-14 17:35:35,819 INFO 21128 [egg-security] use noopen middleware
+2020-06-14 17:35:35,822 INFO 21128 [egg-security] use nosniff middleware
+2020-06-14 17:35:35,824 INFO 21128 [egg-security] use xssProtection middleware
+2020-06-14 17:35:35,826 INFO 21128 [egg-security] use xframe middleware
+2020-06-14 17:35:35,828 INFO 21128 [egg-security] use dta middleware
+2020-06-14 17:35:35,828 INFO 21128 [egg-security] compose 6 middlewares into one security middleware
+2020-06-14 17:35:35,849 INFO 21128 [egg:core] dump config after load, 10ms
+2020-06-14 17:35:35,927 INFO 21128 [egg-watcher:application] watcher start success
+2020-06-14 17:35:35,986 INFO 21128 [egg:core] dump config after ready, 23ms
+2020-06-15 10:04:25,342 INFO 19180 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-15 10:04:25,421 INFO 19180 [egg-multipart] stream mode enable
+2020-06-15 10:04:26,479 INFO 19180 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-15 10:04:26,485 INFO 19180 [egg-security] use methodnoallow middleware
+2020-06-15 10:04:26,487 INFO 19180 [egg-security] use noopen middleware
+2020-06-15 10:04:26,490 INFO 19180 [egg-security] use nosniff middleware
+2020-06-15 10:04:26,492 INFO 19180 [egg-security] use xssProtection middleware
+2020-06-15 10:04:26,494 INFO 19180 [egg-security] use xframe middleware
+2020-06-15 10:04:26,496 INFO 19180 [egg-security] use dta middleware
+2020-06-15 10:04:26,496 INFO 19180 [egg-security] compose 6 middlewares into one security middleware
+2020-06-15 10:04:26,525 INFO 19180 [egg:core] dump config after load, 13ms
+2020-06-15 10:04:26,613 INFO 19180 [egg-watcher:application] watcher start success
+2020-06-15 10:04:26,669 INFO 19180 [egg:core] dump config after ready, 15ms
+2020-06-15 10:04:29,898 INFO 4520 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-15 10:04:29,950 INFO 4520 [egg-multipart] stream mode enable
+2020-06-15 10:04:30,995 INFO 4520 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-15 10:04:31,000 INFO 4520 [egg-security] use methodnoallow middleware
+2020-06-15 10:04:31,002 INFO 4520 [egg-security] use noopen middleware
+2020-06-15 10:04:31,006 INFO 4520 [egg-security] use nosniff middleware
+2020-06-15 10:04:31,007 INFO 4520 [egg-security] use xssProtection middleware
+2020-06-15 10:04:31,009 INFO 4520 [egg-security] use xframe middleware
+2020-06-15 10:04:31,011 INFO 4520 [egg-security] use dta middleware
+2020-06-15 10:04:31,012 INFO 4520 [egg-security] compose 6 middlewares into one security middleware
+2020-06-15 10:04:31,047 INFO 4520 [egg:core] dump config after load, 17ms
+2020-06-15 10:04:31,123 INFO 4520 [egg-watcher:application] watcher start success
+2020-06-15 10:04:31,208 INFO 4520 [egg:core] dump config after ready, 17ms
+2020-06-15 14:06:17,534 WARN 4520 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-15 16:09:37,475 INFO 22532 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-15 16:09:37,577 INFO 22532 [egg-multipart] stream mode enable
+2020-06-15 16:09:38,832 INFO 22532 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-15 16:09:38,839 INFO 22532 [egg-security] use methodnoallow middleware
+2020-06-15 16:09:38,841 INFO 22532 [egg-security] use noopen middleware
+2020-06-15 16:09:38,845 INFO 22532 [egg-security] use nosniff middleware
+2020-06-15 16:09:38,847 INFO 22532 [egg-security] use xssProtection middleware
+2020-06-15 16:09:38,849 INFO 22532 [egg-security] use xframe middleware
+2020-06-15 16:09:38,851 INFO 22532 [egg-security] use dta middleware
+2020-06-15 16:09:38,851 INFO 22532 [egg-security] compose 6 middlewares into one security middleware
+2020-06-15 16:09:38,883 INFO 22532 [egg:core] dump config after load, 15ms
+2020-06-15 16:09:38,969 INFO 22532 [egg-watcher:application] watcher start success
+2020-06-15 16:09:39,061 INFO 22532 [egg:core] dump config after ready, 21ms
+2020-06-15 16:09:42,865 INFO 2104 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-15 16:09:42,922 INFO 2104 [egg-multipart] stream mode enable
+2020-06-15 16:09:44,167 INFO 2104 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-15 16:09:44,177 INFO 2104 [egg-security] use methodnoallow middleware
+2020-06-15 16:09:44,180 INFO 2104 [egg-security] use noopen middleware
+2020-06-15 16:09:44,190 INFO 2104 [egg-security] use nosniff middleware
+2020-06-15 16:09:44,193 INFO 2104 [egg-security] use xssProtection middleware
+2020-06-15 16:09:44,196 INFO 2104 [egg-security] use xframe middleware
+2020-06-15 16:09:44,199 INFO 2104 [egg-security] use dta middleware
+2020-06-15 16:09:44,199 INFO 2104 [egg-security] compose 6 middlewares into one security middleware
+2020-06-15 16:09:44,228 INFO 2104 [egg:core] dump config after load, 15ms
+2020-06-15 16:09:44,345 INFO 2104 [egg-watcher:application] watcher start success
+2020-06-15 16:09:44,504 INFO 2104 [egg:core] dump config after ready, 67ms
+2020-06-15 18:54:21,590 WARN 2104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 10:06:04,194 INFO 22424 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-16 10:06:04,309 INFO 22424 [egg-multipart] stream mode enable
+2020-06-16 10:06:06,041 INFO 22424 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-16 10:06:06,048 INFO 22424 [egg-security] use methodnoallow middleware
+2020-06-16 10:06:06,051 INFO 22424 [egg-security] use noopen middleware
+2020-06-16 10:06:06,054 INFO 22424 [egg-security] use nosniff middleware
+2020-06-16 10:06:06,056 INFO 22424 [egg-security] use xssProtection middleware
+2020-06-16 10:06:06,058 INFO 22424 [egg-security] use xframe middleware
+2020-06-16 10:06:06,060 INFO 22424 [egg-security] use dta middleware
+2020-06-16 10:06:06,060 INFO 22424 [egg-security] compose 6 middlewares into one security middleware
+2020-06-16 10:06:06,094 INFO 22424 [egg:core] dump config after load, 16ms
+2020-06-16 10:06:06,189 INFO 22424 [egg-watcher:application] watcher start success
+2020-06-16 10:06:06,274 INFO 22424 [egg:core] dump config after ready, 21ms
+2020-06-16 10:06:10,721 INFO 15464 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-16 10:06:10,796 INFO 15464 [egg-multipart] stream mode enable
+2020-06-16 10:06:12,103 INFO 15464 [egg-static] starting static serve /public/ -> C:\Users\shiliu.gyh\Desktop\practise\gyh-todolist\todolist-egg\app\public
+2020-06-16 10:06:12,110 INFO 15464 [egg-security] use methodnoallow middleware
+2020-06-16 10:06:12,113 INFO 15464 [egg-security] use noopen middleware
+2020-06-16 10:06:12,116 INFO 15464 [egg-security] use nosniff middleware
+2020-06-16 10:06:12,119 INFO 15464 [egg-security] use xssProtection middleware
+2020-06-16 10:06:12,121 INFO 15464 [egg-security] use xframe middleware
+2020-06-16 10:06:12,123 INFO 15464 [egg-security] use dta middleware
+2020-06-16 10:06:12,124 INFO 15464 [egg-security] compose 6 middlewares into one security middleware
+2020-06-16 10:06:12,150 INFO 15464 [egg:core] dump config after load, 10ms
+2020-06-16 10:06:12,248 INFO 15464 [egg-watcher:application] watcher start success
+2020-06-16 10:06:12,321 INFO 15464 [egg:core] dump config after ready, 30ms
+2020-06-16 19:05:54,414 WARN 15464 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 22:13:04,050 WARN 15464 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 23:42:29,558 WARN 15464 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-06-16 23:59:59,619 INFO 15464 [egg-logrotator] clean all log before 31 days
+2020-06-17 00:00:00,563 INFO 15464 [egg-logrotator] broadcast log-reload
+2020-06-17 00:00:00,563 INFO 15464 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\common-error.log -> C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\common-error.log.2020-06-16","C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\test-web.log -> C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\test-web.log.2020-06-16","C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-web.log -> C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-web.log.2020-06-16","C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-schedule.log -> C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-schedule.log.2020-06-16","C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-agent.log -> C:\\Users\\shiliu.gyh\\Desktop\\practise\\gyh-todolist\\todolist-egg\\logs\\test\\egg-agent.log.2020-06-16"]

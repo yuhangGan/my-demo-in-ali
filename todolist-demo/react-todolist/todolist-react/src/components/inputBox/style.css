@@ -1,0 +1,9 @@
+.input-box {
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(255, 183, 95);
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: block;
+    outline-color: rgb(238, 133, 4);
+}
