@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>handwriting ajax</title>
+  </head>
+  <body>
+    <button onclick="sendAjax()">ajax</button>
+    <button onclick="sendJsonp('jsonp')">发送jsonp</button>
+    <button>获取cookie</button>
+    <div class="result" id="result"></div>
+  </body>
+
+  <script>
+    function sendAjax() {
+      let req = new XMLHttpRequest();
+      req.open("get", "http://localhost:8888?type=ajax");
+      req.send();
+      req.onreadystatechange = function () {
+        if (req.readyState === 4) {
+          if (req.status === 200) setResult(req.responseText);
+          else setResult("请求失败，请重试！");
+        }
+      };
+    }
+
+    function sendJsonp(callback) {
+      var script = document.createElement("script");
+      script.src = `http://localhost:8888?type=jsonp&callback=${callback}`;
+      window[callback] = function (jsonpData) {
+        setResult(jsonpData);
+        document.body.removeChild(script);
+        clearTimeout(timer);
+        window[callback] = null;
+      };
+
+      let timer = setTimeout(() => {
+        setResult("jsonp请求超时咯");
+      }, 5000);
+
+      document.body.appendChild(script);
+    }
+
+    function setResult(text) {
+      let resNode = document.getElementById("result");
+      resNode.innerText = text;
+      getCookie();
+    }
+
+    function getCookie() {
+      console.log(document.cookie, typeof document.cookie);
+    }
+  </script>
+</html>
