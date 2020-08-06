@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lazyload</title>
+  </head>
+  <style>
+    .box {
+      width: 200px;
+    }
+
+    .img {
+      width: 533px;
+      height: 300px;
+    }
+
+    .show {
+      animation: show 1.7s;
+    }
+    @keyframes show {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+  <body>
+    <div class="box">
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+      <img class="img" src="" data-src="./images/test.jpg" />
+    </div>
+  </body>
+  <script>
+    let innerHeight = window.innerHeight;
+    let imgs = Array.from(document.getElementsByTagName("img"));
+
+    // 判断图片是否进入了可视区域
+    function lazyLoad() {
+      let isAllLoaded = false;
+      imgs.forEach((e, i) => {
+        isAllLoaded = false;
+        let y = e.getBoundingClientRect().y;
+        if (y <= innerHeight) {
+          e.setAttribute("class", "img show");
+          e.src = e.getAttribute("data-src");
+          isAllLoaded = true;
+        }
+      });
+      if (isAllLoaded) window.removeEventListener("scroll", scrollListener);
+    }
+
+    // 节流
+    function throttle(fn, delay) {
+      let lastTime = null;
+
+      return function () {
+        let curTime = new Date();
+        if (curTime - lastTime >= delay || !lastTime) {
+          console.log("1");
+          fn();
+          lastTime = curTime;
+        }
+      };
+    }
+
+    let scrollListener = throttle(lazyLoad, 500);
+    window.addEventListener("scroll", scrollListener);
+    scrollListener();
+  </script>
+</html>
