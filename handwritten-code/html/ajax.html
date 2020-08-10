@@ -13,6 +13,7 @@
   </body>
 
   <script>
+    // 发送xmlhttprequest
     function sendAjax() {
       let req = new XMLHttpRequest();
       req.open("get", "http://localhost:8888?type=ajax");
@@ -25,6 +26,7 @@
       };
     }
 
+    // 发送jsonp请求
     function sendJsonp(callback) {
       var script = document.createElement("script");
       script.src = `http://localhost:8888?type=jsonp&callback=${callback}`;

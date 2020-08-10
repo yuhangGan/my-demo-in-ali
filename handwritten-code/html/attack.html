@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xssAndCsrf</title>
+  </head>
+  <body>
+    <input type="text" placeholder="随便输入点啥" oninput="input(event)" />
+    <button onclick="finish()">完成</button>
+    <div id="content"></div>
+  </body>
+  <script>
+    let content = "";
+
+    function input(e) {
+      content = e.target.value;
+    }
+
+    function finish() {
+      let div = document.getElementById("content");
+      div.innerHTML = content;
+    }
+  </script>
+  
+</html>
